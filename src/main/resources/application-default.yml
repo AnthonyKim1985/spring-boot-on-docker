@@ -1,2 +1,24 @@
 server:
   port: 8080
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: test
+      username: hello
+      password: hello
+
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb: debug
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,refresh

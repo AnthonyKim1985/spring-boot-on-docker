@@ -21,4 +21,13 @@ function buildUpSourcesAndMakingDockerImage() {
 }
 buildUpSourcesAndMakingDockerImage
 
+#
+# TODO: Pushing images on registry
+#
+function pushImagesOnRegistry() {
+    echo "Pushing images on registry is activated."
+    /bin/bash push-on-registry.sh
+}
+pushImagesOnRegistry
+
 echo "Job's done"
