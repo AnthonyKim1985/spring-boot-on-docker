@@ -27,7 +27,7 @@ function init() {
 deploy.sh 스크립트는 코드를 빌드하고 이미지화하여 docker hub에 이미지를 배포합니다. 
 
 ```
-./deploy.sh
+$ ./deploy.sh
 ```
 
 <h4> 3. 실행방법</h4>
