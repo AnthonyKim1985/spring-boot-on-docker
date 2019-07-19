@@ -12,7 +12,7 @@ Password:
 Login Succeeded
 ```
 
-<h5>(3) hub.docker.com 계정 생성</h5>
+<h5>(3) 스크립트 수정</h5>
 push-on-registry.sh 파일에서 dockerHubId 변수에 docker hub 계정으로 초기화합니다.
 
 ```
