@@ -23,4 +23,10 @@ deploy.sh 스크립트는 코드를 빌드하고 이미지화하여 docker hub�
 
 <h4> 3. 실행방법</h4>
 docker-compose를 이용하여 실행합니다.<br>
+자세한 것은 아래 저장소를 참고합니다.
+
+```
+https://github.com/AnthonyKim1985/spring-boot-on-docker-compose.git
+```
+
  
